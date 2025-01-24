@@ -1,0 +1,26 @@
+body{
+  background-image: url(assets/porscheBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock{
+  color: white;
+  font-size: 10rem;
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(44, 43, 43, 0.37);
+}
+
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vp;
+  
+}
